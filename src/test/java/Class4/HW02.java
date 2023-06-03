@@ -1,10 +1,17 @@
 package Class4;
 
-public class HW02 {
+import Utlis.CommonMethods;
+
+public class HW02 extends CommonMethods {
 
 /*
-HW1:
-goto: http://practice.syntaxtechs.net/basic-select-dropdown-demo.php
-select, tuesday, thursday and friday one by one
+HW02
+goto facebook.com
+ click on create account
+and select the your  date of birth using select class
 */
+public static void main(String[] args) {
+
+
+}
 }
