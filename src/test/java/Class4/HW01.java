@@ -15,15 +15,12 @@ select , tuesday, thursday and friday one by one
 
      */
     public static void main(String[] args) throws InterruptedException {
-        //WebDriver driver=new ChromeDriver();
-       // driver.get("http://practice.syntaxtechs.net/basic-select-dropdown-demo.php");
-     //  WebElement select= driver.findElement(By.xpath("//select[@class='form-control']"));
-      // select.click();
+
 String url="http://practice.syntaxtechs.net/basic-select-dropdown-demo.php";
 String browser="chrome";
 openBrowserAndLaunchApplication(url,browser);
 
-WebElement weekDays=driver.findElement(By.xpath("/]/select[@class='form-control'"));
+WebElement weekDays=driver.findElement(By.xpath("//select[@class='form-control']"));
 Select sel=new Select(weekDays);
 
 sel.selectByVisibleText("Tuesday");
