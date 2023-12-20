@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HW1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver=new ChromeDriver();
 
@@ -31,6 +31,7 @@ Note: use name or id as locators
         driver.findElement(By.id("customer.username")).sendKeys("LaisM");
         driver.findElement(By.id("customer.password")).sendKeys("itIsPassword");
         driver.findElement(By.id("repeatedPassword")).sendKeys("confirmPassword");
+        Thread.sleep(10000);
         driver.quit();
 
 

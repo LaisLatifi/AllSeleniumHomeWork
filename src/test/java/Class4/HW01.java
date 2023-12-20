@@ -1,10 +1,8 @@
 package Class4;
 
-import Utlis.CommonMethods;
+import Utils.CommonMethods;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class HW01 extends CommonMethods {
