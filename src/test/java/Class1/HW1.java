@@ -32,6 +32,9 @@ Note: use name or id as locators
         driver.findElement(By.id("customer.password")).sendKeys("itIsPassword");
         driver.findElement(By.id("repeatedPassword")).sendKeys("confirmPassword");
         Thread.sleep(10000);
+        driver.manage().window().minimize();
+        driver.manage().window().fullscreen();
+        Thread.sleep(6000);
         driver.quit();
 
 
